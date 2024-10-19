@@ -89,13 +89,24 @@ For more information, refer to the official [FreeRTOS documentation](https://www
 
 --------------------------------------------- Build setup -------------------------------------------------
 
+Prerequisites
+
+1. git
+2. Make
+3. gcc
+
+
 Steps to build and run the rtos code in linux:
 
 1. git clone https://github.com/FreeRTOS/FreeRTOS-Kernel.git
 
 2. Create your own config File.
 
+3. Update the Make File with proper path
 
+4. run makeall command.
+
+5. Run the rtos_example binary in linux.
 
 
 
