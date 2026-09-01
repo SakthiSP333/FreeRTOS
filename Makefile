@@ -1,7 +1,7 @@
 CC = gcc
 
 FREERTOS_DIR = < Enter your repo location >
-
+ 
 
 CFLAGS = -I$(FREERTOS_DIR) \
          -I$(FREERTOS_DIR)/FreeRTOS-Kernel/include \
